@@ -1,0 +1,9 @@
+---
+applications:
+- path: target/healthcheck.war
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: healthcheck
+  host: healthcheck
+  disk_quota: 1024M
